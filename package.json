@@ -1,0 +1,17 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "description": "microservice for CS 361",
+  "main": "dataService.js",
+  "type": "module",
+  "scripts": {
+    "devstart": "node dataService.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregory Melsby",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1"
+  }
+}
