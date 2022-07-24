@@ -1,10 +1,14 @@
 import express from 'express';
 import axios from 'axios';
+import cors from 'cors';
 import processData from './processdata.js';
 
 const app = express();
 const PORT = process.env.PORT || 5045;
-
+// change the origin to whatever port you are using for your main app
+app.use(cors({
+  origin: ["http://localhost:3000"]
+}));
 /**
  * Sends back a message with code 200 when requested
  */
