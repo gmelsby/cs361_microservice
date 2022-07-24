@@ -18,6 +18,7 @@ const loadCoinData = async () => {
 }
 ```
 This call makes a GET request to http://localhost:5045/tophundredcoins (the URL of the microservice in this example).
+Note that you do not need to send any parameters along with your request.
 It then waits on a response.
 When it receives a response, it sets 'data' to the json content of the response.
 Then, this example calls an externally-defined function 'setCoinData' to set the relevant values in the application to the received data.
