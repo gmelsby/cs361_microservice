@@ -1,5 +1,5 @@
 # cs361_microservice
-Microservice for CS 361
+Microservice for Group Partner's project
 
 **To run**
 - Setup (Do once): Navigate into the directory and execute 'npm install'
